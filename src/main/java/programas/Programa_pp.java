@@ -7,13 +7,17 @@ public class Programa_pp {
        public static void main (String[] args) {
         
         //declarar variables
-        String empleado;
+        String nombre;
+        String apellido;
         double ht, th, sb, des, sn;
         Scanner lectura = new Scanner(System.in);
         
         //entradas
-        System.out.print("Nombre del Empleado: ");
-        empleado=lectura.next();
+        System.out.print("Nombre: ");
+        nombre=lectura.next();
+        
+        System.out.print("Apellido: ");
+        nombre=lectura.next();
         
         System.out.print("Horas Trabajadas: ");
         ht=lectura.nextDouble();
